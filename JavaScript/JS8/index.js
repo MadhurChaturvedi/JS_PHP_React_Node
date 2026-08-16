@@ -45,3 +45,9 @@ console.log(space.indexOf("J"))
 console.log(str.charAt(str.length - 1))
 console.log(space.replace("Java", "C++")) // this replace only do one's not many so for many use replaceAll
 console.log(space.replaceAll("Java", "C++"))
+console.log(space.slice(6))
+
+//split 
+console.log(space.split(/*if you dont pass any thing will split whole string*/))
+console.log(space.trim().split("")) // this will split the each charater into array 
+console.log(space.trim().split("a")) // this will split the each charater into array 
