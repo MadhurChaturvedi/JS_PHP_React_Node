@@ -77,5 +77,34 @@ console.log("\n")
 let str = fruits.toString() // will convert whole array into string and will return new array
 console.log(fruits);
 console.log(`${str} the type of str - ${typeof (str)}`)
+console.log("\n")
 
 
+// indexOf
+let chcker = fruits.indexOf("mango")
+console.log(chcker) // of the item is not present it will return -1 else retrun index it wil not change actial array
+console.log("\n")
+
+
+
+// find
+// let test = fruits.find("")❌  //the find worke little differently whe can need to pass function inside of find it will take functionn
+
+let test2 = fruits.find(function (item) {
+    if (item == "mango") return true // it also called travesing in dsa each elemnt of visit
+})
+console.log(test2)
+console.log("\n")
+
+
+
+//flat
+let avangers = ["spiderman", "ironman", ["Thor", "blackPanther", ["hulk"]], "blackWido"];
+// console.log(avangers)
+console.log(avangers.flat(Infinity)) //it will return new array dont change on original array will will convert the 3d array into single dimanson array 2 is level
+console.log("\n")
+
+
+// reverse
+console.log(fruits)
+console.log(fruits.reverse()) // it will reverse the whole array and will make changes real array
