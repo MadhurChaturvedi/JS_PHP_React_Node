@@ -108,3 +108,12 @@ console.log("\n")
 // reverse
 console.log(fruits)
 console.log(fruits.reverse()) // it will reverse the whole array and will make changes real array
+console.log("\n")
+
+
+// sort
+let array = [6, 2, 5, 7, 1, 54];
+array.sort((a, b) => {
+    return a - b
+}) // this will change on orignal array
+console.log(array) // this this out seems wrong when we pass the sting it will sort by alphabatilly like [a,b,c,d....] in number it convert in to string so before it should be converted into string to nuber first then we need to pass function on you sort if you want accending sort a - b or if you desanding order make b - a
