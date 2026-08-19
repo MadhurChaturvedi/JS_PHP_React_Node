@@ -23,4 +23,7 @@
 // })
 
 
-let use = Number(prompt("Enter the Number"))
+let use = Number(prompt("Enter the Number"));
+for (let i = 1; i <= use; i++) {
+    console.log(i)
+}
