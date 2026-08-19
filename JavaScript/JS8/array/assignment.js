@@ -23,7 +23,17 @@
 // })
 
 
-let use = Number(prompt("Enter the Number"));
-for (let i = 1; i <= use; i++) {
-    console.log(i)
-}
+// let use = Number(prompt("Enter the Number"));
+// for (let i = 1; i <= use; i++) {
+//     console.log(i)
+// }
+
+
+let arr = ["thor", "hulk", "caption america"]
+arr.push("spiderman")
+arr.unshift("superman")
+arr.shift()
+arr.unshift("ironman")
+// orignal array return
+arr.splice(3, 1, "antman")
+console.log(arr)
