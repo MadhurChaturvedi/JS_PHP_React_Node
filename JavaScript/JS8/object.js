@@ -12,5 +12,5 @@ obj["full name"]
 obj.email = "madhurchaturvedi2000@gmail.com"
 //deleate and elemnt of the object  
 delete obj.email
-
 console.log(obj)
+
