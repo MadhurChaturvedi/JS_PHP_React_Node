@@ -44,5 +44,4 @@ Object.seal basically you can not add or deleate and new
 element but you can update existing elemnt or change value
 */
 
-
-//
+console.log(newobj.hasOwnProperty("age")) // so we pass the keys return true or false
