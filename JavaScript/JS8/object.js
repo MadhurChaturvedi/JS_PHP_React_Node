@@ -27,3 +27,22 @@ console.log(obj3)
 
 
 // seal and freez
+
+let newobj = {
+    name: "gta",
+    age: 24,
+}
+
+
+let freez = Object.freeze(newobj) // object freez mean from now on you can not add new element of this 
+freez.age = 12 // it will not work becuase of freez
+console.log(freez);
+
+
+/* seal 
+Object.seal basically you can not add or deleate and new 
+element but you can update existing elemnt or change value
+*/
+
+
+//
