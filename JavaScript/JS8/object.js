@@ -66,6 +66,6 @@ console.log(dob)
 
 let arr = [1, "max", { name: "Naruto" }]
 
-let [item1, item2] = arr;
+let [item1, item2, _] = arr;
 console.log(item1)
 console.log(item2)
