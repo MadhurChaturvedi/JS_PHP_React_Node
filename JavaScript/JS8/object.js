@@ -61,3 +61,11 @@ let { userName, dob } = User
 
 console.log(userName)
 console.log(dob)
+
+// Destructuring array 
+
+let arr = [1, "max", { name: "Naruto" }]
+
+let [item1, item2] = arr;
+console.log(item1)
+console.log(item2)
