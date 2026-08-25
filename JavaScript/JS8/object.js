@@ -45,3 +45,19 @@ element but you can update existing elemnt or change value
 */
 
 console.log(newobj.hasOwnProperty("age")) // so we pass the keys return true or false
+
+
+// some class object and normal object difference understatn
+
+// Destructuring
+
+let User = {
+    userName: "madhur@123",
+    dob: "31/05/2000"
+}
+
+
+let { userName, dob } = User
+
+console.log(userName)
+console.log(dob)
