@@ -9,10 +9,10 @@ person["email"] = "max@gmaile.com";
 delete person.city
 
 
-//for object we can only use forin loop
-for (let key in person) {
-    console.log(`value of ${key} is ${person[key]}`)
-}
+// //for object we can only use forin loop
+// for (let key in person) {
+//     console.log(`value of ${key} is ${person[key]}`)
+// }
 
 
 
@@ -36,8 +36,27 @@ let fullName = ({ name, middle, last }) => {
 
 let result = fullName(Obj);
 
-console.log(result)
+// console.log(result)
 
 
-let keys = Object.keys(Obj).length;
-console.log(keys)
+// let keys = Object.keys(Obj).length;
+// console.log(keys)
+
+
+
+let products = [
+    { id: 1, name: "Samsung" },
+    { id: 2, name: "Iphone" },
+    { id: 3, name: "nokia" }
+];
+
+function Search(products, searchKeyWord) {
+    let filteredProudt = products.filter((obj) => {
+        return obj.name.toLowerCase().includes(searchKeyWord.toLowerCase())
+    })
+
+    console.log(filteredProudt)
+}
+
+
+Search(products, "sam");
