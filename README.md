@@ -35,3 +35,17 @@ The assignments and challenges practice:
 - Nested loops for console patterns
 - A browser-based number guessing game using `prompt`, `alert`, `Number`, and `isNaN`
 - A simple authentication checker exercise using email and password values
+
+## Arrays
+
+The array lessons cover:
+
+- Creating arrays, zero-based indexing, `length`, and mutable values
+- Adding and removing items with `push`, `pop`, `unshift`, and `shift`
+- Selecting and changing ranges with `slice` and `splice`
+- Combining values with `concat` and spread syntax
+- Converting arrays with `join` and `toString`
+- Searching with `includes`, `indexOf`, and `find`
+- Flattening nested arrays with `flat`
+- Reversing arrays and sorting numbers with a comparison function
+- Using `reduce` for totals and solving array assignments
