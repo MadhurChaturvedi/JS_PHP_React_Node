@@ -23,3 +23,15 @@ The early exercises cover:
 - Ternary expressions for compact conditional results
 - Template literals, interpolation, and string immutability
 - String methods such as `trim`, `includes`, `indexOf`, `replace`, `replaceAll`, `slice`, and `split`
+
+## Control Flow And Practice
+
+The assignments and challenges practice:
+
+- `if`, `else if`, and `else` decision-making
+- `for` and `while` loops
+- Natural-number and range sums
+- Odd-number checks and reusable loop conditions
+- Nested loops for console patterns
+- A browser-based number guessing game using `prompt`, `alert`, `Number`, and `isNaN`
+- A simple authentication checker exercise using email and password values
