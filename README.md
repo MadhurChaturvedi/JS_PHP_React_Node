@@ -49,3 +49,39 @@ The array lessons cover:
 - Flattening nested arrays with `flat`
 - Reversing arrays and sorting numbers with a comparison function
 - Using `reduce` for totals and solving array assignments
+
+## Objects And Destructuring
+
+The current lessons also cover:
+
+- Creating, reading, updating, and deleting object properties
+- Dot notation and bracket notation, including property names with spaces
+- Object methods, arrow functions, and how `this` behaves in each form
+- Copying and combining objects with `Object.assign` and spread syntax
+- Protecting object structure with `Object.seal` and `Object.freeze`
+- Checking properties with `hasOwnProperty`
+- Object and array destructuring for extracting values into variables
+- Constructor and regular-object differences through hands-on examples
+
+## Repository Layout
+
+- `JavaScript/JS3`: operators, values, short-circuiting, ternaries, and challenges
+- `JavaScript/JS4`: loops, patterns, and browser authentication practice
+- `JavaScript/JS7`: assignment practice
+- `JavaScript/JS8`: arrays, strings, objects, assignments, and method chaining
+
+## Running Examples
+
+Most `.js` files can be run with Node.js:
+
+```bash
+node JavaScript/JS8/array.js
+```
+
+Files with an accompanying `index.html` are intended to be opened in a browser because some exercises use browser APIs such as `prompt` and `alert`.
+
+## Next Steps
+
+- Improve naming, spelling, and consistency as the exercises grow
+- Add more functions and reusable modules
+- Continue from core JavaScript toward PHP, React, and Node.js
