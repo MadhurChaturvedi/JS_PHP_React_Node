@@ -1,0 +1,13 @@
+h1 {
+    color: purple;
+}
+
+span {
+    color: yellow;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-weight: 800;
+    background-color: black;
+    padding: 5px;
+    cursor: pointer;
+}
