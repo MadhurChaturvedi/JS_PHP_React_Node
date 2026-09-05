@@ -3,7 +3,7 @@
 2.selection on HTMl element ✅
 3.how to change or manupuate HTML ✅
 4.Changing CSS with js ✅
-5.event Listeners 
+5.event Listeners ✅
 */
 
 
@@ -28,8 +28,7 @@ headding.style.display = "flex"
 headding.style.alignItems = "center"
 headding.style.justifyContent = "center"
 
-
 let span = document.querySelector('span');
-span.addEventListener("", function () {
-
+span.addEventListener("click", function () {
+    span.innerText = "Mouse Up Event is Triggered"
 })

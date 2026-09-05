@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width:  200px;
+            height: 200px;
+            border: blue solid 10px;
+            background-color: red;
+            scale: 0.8;
+            transition: all linear 0.3s;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />  
+    <button>On</button>
+
+    <script>
+        let Div = document.querySelector('div');
+        let useButton = document.querySelector('button');
+        
+        useButton.addEventListener("click",function(){
+            Div.style.scale = "1"
+        })
+    </script>
+</body>
+</html>
